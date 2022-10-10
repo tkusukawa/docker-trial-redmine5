@@ -1,0 +1,5 @@
+
+  <Directory "/opt/chupa-text/public">
+    Require all granted
+  </Directory>
+</VirtualHost>

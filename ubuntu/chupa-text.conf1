@@ -1,0 +1,10 @@
+Listen 3000
+<VirtualHost *:3000>
+  DocumentRoot "/opt/chupa-text/public"
+
+#  LogLevel warn
+#  ErrorLog logs/chupa-text_error_log
+#  TransferLog logs/chupa-text_access_log
+#  CustomLog logs/chupa-text_request_log \
+#          '%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x "%r" %b'
+

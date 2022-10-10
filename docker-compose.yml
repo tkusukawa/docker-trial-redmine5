@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  ubuntu:
+    build:
+      context: ./ubuntu/
+      dockerfile: ./Dockerfile
+    ports:
+      - 22:22
+      - 80:80
+      - 3000:3000
+      - 3306:3306
+    container_name: redmine5_ubuntu
+    volumes:
+      - d:\share:/share

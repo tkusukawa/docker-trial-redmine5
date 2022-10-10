@@ -1,0 +1,11 @@
+
+PassengerMaxPoolSize 20
+PassengerMaxInstancesPerApp 4
+PassengerPoolIdleTime 864000
+PassengerStatThrottleRate 10
+
+<Directory /opt/redmine/public>
+    Allow from all
+    Options -MultiViews
+    Require all granted
+</Directory>

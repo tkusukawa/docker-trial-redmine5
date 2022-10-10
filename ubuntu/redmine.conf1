@@ -1,0 +1,4 @@
+<Directory "/opt/redmine/public">
+  Require all granted
+</Directory>
+
